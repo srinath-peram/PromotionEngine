@@ -38,6 +38,25 @@ namespace PromotionEngine
             int priceofD = 15;
            foreach (Product pr in products)
             {
+                switch (pr.Id)
+                {
+                    case "A":
+                    case "a":
+                        counterofA += 1;
+                        break;
+                    case "B":
+                    case "b":
+                        counterofB += 1;
+                        break;
+                    case "C":
+                    case "c":
+                        CounterofC += 1;
+                        break;
+                    case "D":
+                    case "d":
+                        CounterofD += 1;
+                        break;
+                }
            }
        }
     }
