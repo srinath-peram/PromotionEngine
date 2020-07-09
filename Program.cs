@@ -58,6 +58,8 @@ namespace PromotionEngine
                         break;
                 }
            }
+            int totalPriceofA = (counterofA / 3) * 130 + (counterofA % 3 * priceofA);
+           
        }
     }
 }
