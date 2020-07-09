@@ -59,6 +59,7 @@ namespace PromotionEngine
                 }
            }
             int totalPriceofA = (counterofA / 3) * 130 + (counterofA % 3 * priceofA);
+            int totalPriceofB = (counterofB / 2) * 45 + (counterofB % 2 * priceofB);
            
        }
     }
