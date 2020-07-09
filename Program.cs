@@ -10,6 +10,10 @@ namespace PromotionEngine
     {
         static void Main(string[] args)
         {
+            List<Product> products = new List<Product>();
+            
+            Console.WriteLine("total number of order");
+            int a = Convert.ToInt32(Console.ReadLine());
            
         }
        
