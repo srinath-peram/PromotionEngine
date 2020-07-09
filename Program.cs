@@ -26,6 +26,8 @@ namespace PromotionEngine
             Console.WriteLine(totalPrice);
             Console.ReadLine();
         }
-       
+       private static int GetTotalPrice(List<Product> products)
+        {
+       }
     }
 }
