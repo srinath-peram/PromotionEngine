@@ -71,5 +71,9 @@ namespace PromotionEngine
 
         public string Id { get; set; }
         public decimal Price { get; set; }
+         public Product(string id)
+        {
+            this.Id = id;
+         }
     }
 }
