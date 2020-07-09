@@ -36,6 +36,9 @@ namespace PromotionEngine
             int priceofC = 20;
             int CounterofD = 0;
             int priceofD = 15;
+           foreach (Product pr in products)
+            {
+           }
        }
     }
 }
