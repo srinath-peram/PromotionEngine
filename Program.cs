@@ -10,16 +10,21 @@ namespace PromotionEngine
     {
         static void Main(string[] args)
         {
-            List<Product> products = new List<Product>();            
-            Console.WriteLine("total number of order");
+           List<Product> products = new List<Product>();
+
+            Console.WriteLine("total number of orders");
             int a = Convert.ToInt32(Console.ReadLine());
-           for (int i = 0; i < a; i++)
-            {                
+            for (int i = 0; i < a; i++)
+            {
                 Console.WriteLine("enter the type of product:A,B,C or D");
-                string type= Console.ReadLine();
+                string type = Console.ReadLine();
                 Product p = new Product(type);
                 products.Add(p);
             }
+
+            int totalPrice = GetTotalPrice(products);
+            Console.WriteLine(totalPrice);
+            Console.ReadLine();
         }
        
     }
