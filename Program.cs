@@ -28,6 +28,14 @@ namespace PromotionEngine
         }
        private static int GetTotalPrice(List<Product> products)
         {
+            int counterofA = 0;
+            int priceofA = 50;
+            int counterofB = 0;
+            int priceofB = 30;
+            int CounterofC = 0;
+            int priceofC = 20;
+            int CounterofD = 0;
+            int priceofD = 15;
        }
     }
 }
