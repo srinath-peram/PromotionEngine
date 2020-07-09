@@ -65,4 +65,11 @@ namespace PromotionEngine
            return totalPriceofA + totalPriceofB + totalPriceofC + totalPriceofD;
        }
     }
+    
+    public class Product
+    {
+
+        public string Id { get; set; }
+        public decimal Price { get; set; }
+    }
 }
