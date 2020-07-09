@@ -62,6 +62,7 @@ namespace PromotionEngine
             int totalPriceofB = (counterofB / 2) * 45 + (counterofB % 2 * priceofB);
             int totalPriceofC = (CounterofC * priceofC);
             int totalPriceofD = (CounterofD * priceofD);
+           return totalPriceofA + totalPriceofB + totalPriceofC + totalPriceofD;
        }
     }
 }
